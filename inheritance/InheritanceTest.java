@@ -1,4 +1,4 @@
-package com.git.inheritance;
+package inheritance;
 // Java program to illustrate the
 // concept of inheritance
 

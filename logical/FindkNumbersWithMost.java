@@ -1,10 +1,8 @@
-package com.git.logical;
+package logical;
 // JAVA program to find k numbers with most
 // occurrences in the given array
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class FindkNumbersWithMost {
 	static List<Integer>

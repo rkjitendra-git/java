@@ -1,4 +1,4 @@
-package com.git.exception;
+package exception;
 
 public class ExceptionExample {
 

@@ -1,4 +1,4 @@
-package com.git.test;
+package test;
 //class MyThread implements Runnable- give error 
 
 class MyThread extends Thread{ 

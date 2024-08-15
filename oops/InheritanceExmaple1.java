@@ -1,4 +1,4 @@
-package com.git.oops;
+package oops;
 /** 
  * 
  * @author rahul

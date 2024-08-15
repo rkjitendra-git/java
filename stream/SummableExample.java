@@ -1,4 +1,4 @@
-package com.git.stream;
+package stream;
 
 
 public class SummableExample {

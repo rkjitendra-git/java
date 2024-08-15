@@ -1,4 +1,4 @@
-package com.git.java8;
+package stream;
 
 import java.util.ArrayList;
 import java.util.Collections;

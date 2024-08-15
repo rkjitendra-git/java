@@ -1,4 +1,4 @@
-package com.git.java8;
+package stream;
 
 @FunctionalInterface
 interface LamdaFunction{

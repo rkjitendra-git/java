@@ -1,4 +1,4 @@
-package com.git.stream;
+package stream;
 
 /**
  * The Class Student.
