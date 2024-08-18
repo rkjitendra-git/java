@@ -106,7 +106,7 @@ public class Student {
 	 *
 	 * @return the age
 	 */
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
@@ -115,7 +115,7 @@ public class Student {
 	 *
 	 * @param age the new age
 	 */
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 

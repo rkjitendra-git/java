@@ -1,8 +1,6 @@
 package stream;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StudentStreamExample {
@@ -19,8 +17,29 @@ public class StudentStreamExample {
 			    new Student(8, "Nam", "Dev", 31, "Male", "Computer Engineering", 2014, "Karnataka", 433),
 			    new Student(9, "Sonu", "Shankar", 27, "Female", "Computer Engineering", 2018, "Karnataka", 7),
 			    new Student(10, "Shubham", "Pandey", 26, "Male", "Instrumentation Engineering", 2017, "Mumbai", 98));
-		
-		
+
+		//using java 7 		//sorting by name if name are same then by age
+		Collections.sort(list, new Comparator<Student>() {
+			@Override
+			public int compare(Student o1, Student o2) {
+				return o1.getFirstName().equals(o2.getFirstName())? o1.getAge().compareTo(o2.getAge())
+						:o1.getFirstName().compareTo(o2.getFirstName());
+			}
+		});
+
+
+		//using java 8 //sorting by name if name are same then by age
+//		list.stream().sorted((s1,s2)->
+//				s1.getFirstName().equals(s2.getFirstName())?s1.getAge()-s2.getAge():
+//						s1.getFirstName().compareTo(s2.getFirstName())
+//		).collect(Collectors.toList());
+
+		//using java 8 Comparator.comparing() method //sorting by name if name are same then by age
+//		list=list.stream().sorted(Comparator.comparing(Student::getFirstName)).collect(Collectors.toList());
+
+		System.out.println("-------After Sorting-------");
+		list.forEach(System.out::println);
+
 //		Find list of students whose first name starts with alphabet A
 		
 		List<Student> studentsNamewithA = list.stream().filter(name -> name.getFirstName().startsWith("A"))
