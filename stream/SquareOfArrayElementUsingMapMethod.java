@@ -12,6 +12,9 @@ public class SquareOfArrayElementUsingMapMethod {
 //		map method example
 		List<Integer> sq=list.stream().map(x->x*x).collect(Collectors.toList());
 		System.out.println("Map method exmaple" + sq);
+
+		list.stream().map(x->x*x).forEach(System.out::println);
+
 		
 		
 	}
