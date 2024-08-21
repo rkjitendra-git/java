@@ -8,7 +8,7 @@ interface Summable {
 
 
 
-class SumOfINetgerUsingFinctionalIterface {
+class SumOfInetgerUsingFunctionalIterface {
  
  public static void main(String[] args) {
 	 Summable sum=(x,y)->x+y;
