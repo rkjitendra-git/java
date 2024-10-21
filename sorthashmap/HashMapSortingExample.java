@@ -53,6 +53,6 @@ public class HashMapSortingExample {
 
         hm1.forEach((k,v)->{
             System.out.println(k+" "+v);
-        });
+        }); 
     }
 }
