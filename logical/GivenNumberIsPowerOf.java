@@ -19,6 +19,7 @@ public class GivenNumberIsPowerOf {
 
     public static void main(String[] args) {
         //2*2*2*2=16
-        System.out.println(isPower(4,16));
+        //8 pwoerOf 2
+        System.out.println(isPower(8,64));
     }
 }
