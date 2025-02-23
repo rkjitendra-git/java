@@ -2,7 +2,11 @@ package logical;
 
 public class GivenNumberIsPowerOf {
 
-
+    public static void main(String[] args) {
+        //2*2*2*2=16
+        //8 pwoerOf 2
+        System.out.println(isPower(8,64));
+    }
     public static boolean isPower(int powerOf, int givenNumber) {
         if (givenNumber == 0)
             return false;
@@ -17,9 +21,5 @@ public class GivenNumberIsPowerOf {
 
 
 
-    public static void main(String[] args) {
-        //2*2*2*2=16
-        //8 pwoerOf 2
-        System.out.println(isPower(8,64));
-    }
+
 }
